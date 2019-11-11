@@ -18,7 +18,7 @@ AOS.init();
 
 function App() {
   return (
-    <BrowserRouter basename="https://shashankkotturi.github.io/PersonalWebsite/">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <NavBarComp />
         {/* <Sidebar /> */}
