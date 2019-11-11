@@ -22,10 +22,10 @@ function App() {
       <div className="App">
         <NavBarComp />
         {/* <Sidebar /> */}
-        <Route exact path="/" component={Home} />
-        <Route path="/extracurriculars" component={Extracurriculars} />
-        <Route path="/education" component={Education} />
-        <Route path="/experience" component={Experience} />
+        <Route exact path={process.env.PUBLIC_URL} component={Home} />
+        <Route path={process.env.PUBLIC_URL + "/extracurriculars"} component={Extracurriculars} />
+        <Route path={process.env.PUBLIC_URL + "/education"} component={Education} />
+        <Route path={process.env.PUBLIC_URL + "/experience"} component={Experience} />
         <Footer />
       </div>
     </BrowserRouter>
