@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Link} from "react-router-dom";
+import { HashRouter, Route, Link} from "react-router-dom";
 
 import NavBarComp from './components/NavBarComp';
 import Sidebar from './components/Sidebar';
@@ -18,7 +18,7 @@ AOS.init();
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename="/">
       <div className="App">
         <NavBarComp />
         {/* <Sidebar /> */}
@@ -28,7 +28,7 @@ function App() {
         <Route path="/experience" component={Experience} />
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
