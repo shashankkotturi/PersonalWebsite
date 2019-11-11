@@ -19,7 +19,7 @@ function Home(props) {
                             <h5 className="w3-opacity"><b>I'm Shashank Kotturi (aka Shawshank Redemption)</b></h5>
                             <h6 className="w3-opacity">3B Computer Engineering student at the University of Waterloo</h6>
                             <p>Current looking for my 5th coop term</p>
-                            <a href="/education" className="w3-text-teal">Curious about what courses I'm taking? Take a look here -></a>
+                            <a href="/#/education" className="w3-text-teal">Curious about what courses I'm taking? Take a look here -></a>
                             <hr />
                         </div>
                         <h2 className="w3-text-grey w3-padding-16"><i className="fa fa-suitcase w3-margin-right w3-xxlarge w3-text-teal" />Where I worked previously</h2>
@@ -29,7 +29,7 @@ function Home(props) {
                                 <li>Telus, Inc</li>
                                 <li>Marsh and McLennan Companies</li>
                             </ul>
-                            <a href="/experience" className="w3-text-teal">Want to know more about where I worked? Just click here!</a>
+                            <a href="/#/experience" className="w3-text-teal">Want to know more about where I worked? Just click here!</a>
                             <hr />
                         </div>
                         <h2 className="w3-text-grey w3-padding-16"><i className="fa fa-laptop w3-margin-right w3-xxlarge w3-text-teal" />Things I'm currently focused on</h2>
@@ -38,7 +38,7 @@ function Home(props) {
                                 <li>Capstone Design Project</li>
                                 <li>UW Prod Con</li>
                             </ul>
-                            <a href="/experience" className="w3-text-teal">Better click here if you want to know more :)</a>
+                            <a href="/#/extracurriculars" className="w3-text-teal">Better click here if you want to know more :)</a>
                             <hr />
                         </div>
                         <h2 className="w3-text-grey w3-padding-16"><i className="fa fa-child w3-margin-right w3-xxlarge w3-text-teal" />Some hobbies</h2>
