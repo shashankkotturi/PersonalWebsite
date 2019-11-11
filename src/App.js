@@ -23,9 +23,9 @@ function App() {
         <NavBarComp />
         {/* <Sidebar /> */}
         <Route exact path="/" component={Home} />
-        <Route path="/extracurriculars" component={Extracurriculars} />
-        <Route path="/education" component={Education} />
-        <Route path="/experience" component={Experience} />
+        <Route path="/#/extracurriculars" component={Extracurriculars} />
+        <Route path="/#/education" component={Education} />
+        <Route path="/#/experience" component={Experience} />
         <Footer />
       </div>
     </HashRouter>
