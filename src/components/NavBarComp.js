@@ -4,7 +4,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 function NavBarComp() {
     return (
         <Navbar bg="w3-white" expand="lg">
-            <Navbar.Brand href="/"><img src={logo} style={{ width: "4rem" }} /></Navbar.Brand>
+            {/* <Navbar.Brand href="/"><img src={logo} style={{ width: "4rem" }} /></Navbar.Brand> */}
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
