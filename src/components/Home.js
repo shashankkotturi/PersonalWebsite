@@ -49,7 +49,7 @@ function Home(props) {
                                 <li>Politics (both US and Canadian)</li>
                                 <li>Cars</li>
                                 <li>Stocks</li>
-                                <li>Cooking</li>
+                                <li>Biking</li>
                                 <li>Travelling</li>
                             </ul>
                         </div>

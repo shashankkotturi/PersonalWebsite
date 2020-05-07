@@ -2,7 +2,6 @@ import React from 'react';
 import { HashRouter, Route, Link} from "react-router-dom";
 
 import NavBarComp from './components/NavBarComp';
-import Sidebar from './components/Sidebar';
 import Home from './components/Home';
 import Extracurriculars from './components/Extracurriculars';
 import Education from './components/Education';
@@ -21,7 +20,6 @@ function App() {
     <HashRouter basename="/">
       <div className="App">
         <NavBarComp />
-        {/* <Sidebar /> */}
         <Route exact path="/" component={Home} />
         <Route path="/extracurriculars" component={Extracurriculars} />
         <Route path="/education" component={Education} />
