@@ -57,25 +57,57 @@
         "school": "PMI course - LinkedIn Learning",
         "degree": "Project Management Foundations",
         "graduated": "August 2019",
-        "description": "Registered PMI course that describes the responsibilities of a project manager and the differences between a product and a project manager"
+        "description": "Registered PMI course that describes the responsibilities of a project manager and the differences between a product and a project manager."
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "SAP Canada",
+        "title": "Product Manager",
+        "years": "January 2020 - April 2020",
+        "description": "Published 11 video tutorials with 30 SQL scripts; Created 4 internal and external product roadmaps in JIRA and Confluence; Presented competitive analysis on 5 data virtualization platforms in the market to executive leadership."
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Flashfood",
+        "title": "Product Manager",
+        "years": "May 2019 - August 2019",
+        "description": "Cut customer tickets by 40%, costs by 25% and customer wait time by 2 days by redesigning customer support system; Proposed migrating in app event tracking from Mixpanel to Amplitude to reduce annual costs by $100,000."
+      },
+      {
+        "company": "Telus",
+        "title": "Frontend Developer",
+        "years": "September 2018 - December 2018",
+        "description": "Designed 5 wireframes and created functional prototype for small businesses to customize 10 internet packages with over 20 options each; Eliminated 20% of internal API calls and reduced 30% of Express server usage."
       }
     ],
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
-    "skills": [
+    "skillmessage": "I believe that a Product Manager requires a combination of soft and technical skills (tools, languages and frameworks) to succeed in their role. So, here's a look at some of the skills I've acquired from my previous internships.",
+    "skills": [      
+      {
+        "name": "Product Strategy",
+        "level": "70%"
+      },
+      {
+        "name": "Data Analytics",
+        "level": "70%"
+      },
+      {
+        "name": "Leadership",
+        "level": "80%"
+      },
+      {
+        "name": "Communication",
+        "level": "80%"
+      },
+      {
+        "name": "Time Management",
+        "level": "90%"
+      },
+      {
+        "name": "Project Management",
+        "level": "70%"
+      }
+    ],
+    "tools": [
       {
         "name": "JIRA",
         "level": "90%"
@@ -108,51 +140,75 @@
         "name": "Typeform",
         "level": "90%"
       }
+    ],
+    "languages": [
+      {
+        "name": "SQL",
+        "level": "70%"
+      },
+      {
+        "name": "Node",
+        "level": "60%"
+      },
+      {
+        "name": "React",
+        "level": "70%"
+      },
+      {
+        "name": "Redux",
+        "level": "60%"
+      },
+      {
+        "name": "Express",
+        "level": "80%"
+      },
+      {
+        "name": "Python",
+        "level": "60%"
+      }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
-      },
-      {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "title": "Survey Room",
+        "category": "Survey is a virtula Q&A platform that allows students to ask instructors questions or to collaborate with other students on assignments and projects.",
         "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "url": "https://survey-room.now.sh/dashboard",
+        "description": "I am leading a team of 3 students to plan, design and develop a protoype for the Q&A platform. I am also designing the database schema and delegating work based on team member's skills, past experience and interests."
+      },
+      {
+        "title": "UW Prod Con (Hosted by UW PM & Microsoft)",
+        "category": "Prod Con is an event for PMs to meet others in their field and pitch their ideas.",
+        "image": "smirkspace.jpg",
+        "url": "https://www.facebook.com/uwaterloopm/",
+        "description": "Prod Con is a Product Case Competition hosted by UW PM & Microsoft that provides students with a platform to pitch their product ideas to improve Microsoft Teams for education. I was responsible for presenting the business case such as the potential to increase revenues for Universities. I also presented the technical case which shows integrating LinkedIn Learning into Microsoft Teams to create a live e-learning platform."
+      },
+      {
+        "title": "FoodSaver - Capstone Project Idea",
+        "category": "An inventory management tool for perishable items to reduce food waste in stores.",
+        "image": "smirkspace.jpg",
+        "url": "",
+        "description": "The FoodSaver idea keeps track of item expiry and location within a store. Store managers will be notified of items that are about to expire such that the items can be sold for a reduced price instead of being thrown out. The FoodSaver project improves inventory management, reduces logistical costs of transporting waste, avoids food waste taxes and drives foot traffic into stores."
+      },
+      {
+        "title": "Spotify Headphones - Capstone Project Idea",
+        "category": "A pair of headphones that can function indepently without an external device.",
+        "image": "smirkspace.jpg",
+        "url": "",
+        "description": "The Spotify Headphones idea involves developing a pair of over-ear headphones that can store music on the device, rather than relying on Bluetooth to transmit data. This allows users to listen to music without carrying an external device such as a phone or a smartwatch. This project aims to serve fitness enthusiasts that workout in a gym or go for long runs."
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
+        "text": "Shashank was an outstanding co-op. He bettered the company and really took initiative to help out where-ever he could. He worked on items that lowered overhead costs of the business and they've been successfully used in production. Shashank has been a great teammate to the Flashfood team and we would highly reccommend him for future co-op positions. We would be glad to have him back in the future if something lines up.",
+        "user": "Stephanie Nguyen, VP, Product & Design, Flashfood"
       },
       {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
+        "text": "Shashank has proven to be adaptable to changing circumstances, both within SAP and dring the COVID-19 issues that have occurred during the term.  He is very reliable, and works independantly, as was shown throughout the term, and especially when he began to work from home locally, and then remotely when he moved back to be with his family.  He was a good team-member, interacting and asking questions when he was not clear on a task or when he needed help. As he settled in over the term, he became more proactive in pursuing his assigned tasks, setting meetings to solicit feedback and discuss progress.",
+        "user": "Jason Hinsperger, Sr. Product Manager, SAP Canada"
       }
     ]
   }
