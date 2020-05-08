@@ -1,0 +1,159 @@
+{
+  "main": {
+    "name": "Shashank Kotturi",
+    "occupation": "Product Manager",
+    "description": "Currently a 4th year Computer Engineering student from the University of Waterloo looking for Fall 2020 internships",
+    "image": "profilepic.jpg",
+    "bio": "Previously, I worked as a Frontend Developer in React, Redux and Express. Currently, I'm a Product Manager that works to improve customer experiences using tools like JIRA, Google Analytics and Zendesk to develop product roadmaps, gather analytics for product development and provide customer support. My hobbies include biking, travelling, cooking and politics.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "shashank.kotturi@uwaterloo.ca",
+    "phone": "604-600-5956",
+    "address": {
+      "street": "",
+      "city": "Vancouver",
+      "state": "British Columbia",
+      "zip": ""
+    },
+    "website": "",
+    "resumedownload": "",
+    "social": [
+      {
+        "name": "email",
+        "url": "mailto:shashank.kotturi@uwaterloo.ca",
+        "className": "fa fa-envelope"
+      },
+      {
+        "name": "phone",
+        "url": "tel:604-600-5956",
+        "className": "fa fa-phone"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/shashank-kotturi/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/shashankkotturi",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "University of Waterloo",
+        "degree": "Bachelor of Applied Science (B.A.Sc.), Computer Engineering",
+        "graduated": "April 2021",
+        "description": "Relevant Courses: Engineering Design and Economics, Databases (MySQL), Algorithms and Data Structures (C++)"
+      },
+      {
+        "school": "LinkedIn Learning",
+        "degree": "Becoming a Product Manager",
+        "graduated": "February 2020",
+        "description": "LinkedIn Learning course that describes the role and skills that product managers posses in the workplace."
+      },
+      {
+        "school": "PMI course - LinkedIn Learning",
+        "degree": "Project Management Foundations",
+        "graduated": "August 2019",
+        "description": "Registered PMI course that describes the responsibilities of a project manager and the differences between a product and a project manager"
+      }
+    ],
+    "work": [
+      {
+        "company": "Awesome Design Studio",
+        "title": "Senior UX God ",
+        "years": "March 2010 - Present",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company": "Super Cool Studio",
+        "title": "Junior bug fixer",
+        "years": "March 2007 - February 2010",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skills": [
+      {
+        "name": "JIRA",
+        "level": "90%"
+      },
+      {
+        "name": "Confluence",
+        "level": "90%"
+      },
+      {
+        "name": "Google Analytics",
+        "level": "60%"
+      },
+      {
+        "name": "Amplitude",
+        "level": "50%"
+      },
+      {
+        "name": "Mixpanel",
+        "level": "50%"
+      },
+      {
+        "name": "Zapier",
+        "level": "80%"
+      },
+      {
+        "name": "Zendesk",
+        "level": "80%"
+      },
+      {
+        "name": "Typeform",
+        "level": "90%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "fury-fighting-gear.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "original-thai-food.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "resume-website.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "smirkspace.jpg",
+        "url": "http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
