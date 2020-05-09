@@ -170,17 +170,17 @@
     "projects": [
       {
         "title": "Survey Room",
-        "category": "Survey room is a Q&A platform that allows students to ask instructors questions or to collaborate with other students on assignments and projects.",
+        "category": "Survey Room is a Q&A platform that allows students to ask instructors questions or to collaborate with other students on assignments and projects.",
         "image": "smirkspace.jpg",
         "url": "https://survey-room.now.sh/dashboard",
-        "description": "I am leading a team of 3 students to plan, design and develop a protoype for the Q&A platform. I am also designing the database schema and delegating work based on team member's skills, past experience and interests."
+        "description": "I am leading a team of 3 students to plan, design and develop a prototype for the Q&A platform. I am also designing the database schema and delegating work based on team member's skills, past experience and interests."
       },
       {
         "title": "FoodSaver - Capstone Project Idea",
         "category": "An inventory management tool for perishable items to reduce food waste in stores.",
         "image": "smirkspace.jpg",
         "url": "",
-        "description": "The FoodSaver idea keeps track of item expiry and location within a store. Store managers will be notified of items that are about to expire such that the items can be sold for a reduced price instead of being thrown out. The FoodSaver project improves inventory management, reduces logistical costs of transporting waste, avoids food waste taxes and drives foot traffic into stores."
+        "description": "The FoodSaver project keeps track of item expiry and location within a store. Store managers will be notified of items that are about to expire such that the items can be sold for a reduced price instead of being thrown out. This project improves inventory management, reduces logistical costs of transporting waste, avoids food waste taxes and drives foot traffic into stores."
       },
       {
         "title": "Spotify Headphones - Capstone Project Idea",
@@ -194,18 +194,18 @@
         "category": "Prod Con is an event for PMs to meet others in their field and pitch their ideas.",
         "image": "smirkspace.jpg",
         "url": "https://www.facebook.com/uwaterloopm/",
-        "description": "Prod Con is a Product Case Competition hosted by UW PM & Microsoft that provides students with a platform to pitch their product ideas to improve Microsoft Teams for education. I was responsible for presenting the business case such as the potential to increase revenues for Universities. I also presented the technical case which shows integrating LinkedIn Learning into Microsoft Teams to create a live e-learning platform."
+        "description": "Prod Con includes a Product Case Competition that provides students with a platform to pitch their product ideas to improve Microsoft Teams for education. I was responsible for presenting the business case such as the potential to increase revenues for Universities as well as the technical case which shows integrating LinkedIn Learning into Teams to create a live e-learning platform."
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Shashank was an outstanding co-op. He bettered the company and really took initiative to help out where-ever he could. He worked on items that lowered overhead costs of the business and they've been successfully used in production. Shashank has been a great teammate to the Flashfood team and we would highly reccommend him for future co-op positions. We would be glad to have him back in the future if something lines up.",
+        "text": "Shashank was an outstanding co-op. He bettered the company and really took initiative to help out where-ever he could. He worked on items that lowered overhead costs of the business and they've been successfully used in production. Shashank has been a great teammate to the Flashfood team and we would highly recommend him for future co-op positions. We would be glad to have him back in the future if something lines up.",
         "user": "Stephanie Nguyen, VP, Product & Design, Flashfood"
       },
       {
-        "text": "Shashank has proven to be adaptable to changing circumstances, both within SAP and dring the COVID-19 issues that have occurred during the term.  He is very reliable, and works independantly, as was shown throughout the term, and especially when he began to work from home locally, and then remotely when he moved back to be with his family.  He was a good team-member, interacting and asking questions when he was not clear on a task or when he needed help. As he settled in over the term, he became more proactive in pursuing his assigned tasks, setting meetings to solicit feedback and discuss progress.",
+        "text": "Shashank has proven to be adaptable to changing circumstances, both within SAP and during the COVID-19 issues that have occurred during the term.  He is very reliable, and works independently, as was shown throughout the term, and especially when he began to work from home locally, and then remotely when he moved back to be with his family.  He was a good team-member, interacting and asking questions when he was not clear on a task or when he needed help. As he settled in over the term, he became more proactive in pursuing his assigned tasks, setting meetings to solicit feedback and discuss progress.",
         "user": "Jason Hinsperger, Sr. Product Manager, SAP Canada"
       }
     ]
