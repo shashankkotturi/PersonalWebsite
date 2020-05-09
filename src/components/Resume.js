@@ -20,6 +20,14 @@ class Resume extends Component {
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
+      var tools = this.props.data.tools.map(function(skills){
+        var className = 'bar-expand '+skills.name.toLowerCase();
+        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+      })
+      var languages = this.props.data.languages.map(function(skills){
+        var className = 'bar-expand '+skills.name.toLowerCase();
+        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+      })
     }
 
     return (
@@ -63,13 +71,32 @@ class Resume extends Component {
 
             <p>{skillmessage}
             </p>
+         </div>
+      </div>
+      <div className="row skill">
+        <div className="four columns main-col">
+          <div className="bars">
+            <ul className="skills">
+              {skills}
+            </ul>
+          </div>
+        </div>
 
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
+        <div className="four columns main-col">
+          <div className="bars">
+            <ul className="skills">
+              {tools}
+            </ul>
+          </div>
+        </div>
+
+        <div className="four columns main-col">
+          <div className="bars">
+            <ul className="skills">
+              {languages}
+            </ul>
+          </div>
+        </div>
       </div>
    </section>
     );

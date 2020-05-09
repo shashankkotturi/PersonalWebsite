@@ -5,14 +5,12 @@
     "description": "Currently a 4th year Computer Engineering student from the University of Waterloo looking for Fall 2020 internships",
     "image": "profilepic.jpg",
     "bio": "Previously, I worked as a Frontend Developer in React, Redux and Express. Currently, I'm a Product Manager that works to improve customer experiences using tools like JIRA, Google Analytics and Zendesk to develop product roadmaps, gather analytics for product development and provide customer support. My hobbies include biking, travelling, cooking and politics.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage": "",
     "email": "shashank.kotturi@uwaterloo.ca",
     "phone": "604-600-5956",
     "address": {
-      "street": "",
       "city": "Vancouver",
-      "state": "British Columbia",
-      "zip": ""
+      "state": "British Columbia"
     },
     "website": "",
     "resumedownload": "",

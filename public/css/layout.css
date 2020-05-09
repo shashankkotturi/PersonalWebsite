@@ -286,7 +286,7 @@ ul#nav li.current a { color: #F06000; }
 /*----------------------------------------------*/
 
 .bars {
-	width: 95%;
+	width: 120%;
 	float: left;
 	padding: 0;
 	text-align: left;
@@ -305,7 +305,7 @@ ul#nav li.current a { color: #F06000; }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
    color: #313131;
-	text-transform: uppercase;
+	text-transform: sentencecase;
    letter-spacing: 2px;
 	font-weight: normal;
    position: relative;
@@ -671,7 +671,7 @@ call-to-action .button {
    font-family: 'FontAwesome';
    content: "\f10d";
 	padding-right: 10px;
-	font-size: 72px;
+	font-size: 60px;
    line-height: 72px;
    text-align: left;
    float: left;
@@ -689,13 +689,13 @@ call-to-action .button {
 #testimonials blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
-   font-size: 24px;
-   line-height: 48px;
+   font-size: 18px;
+   line-height: 36px;
    color: #fff
 }
 #testimonials blockquote cite {
    display: block;
-   font-size: 12px;
+   font-size: 14px;
    font-style: normal;
    line-height: 18px;
    color: #fff;
