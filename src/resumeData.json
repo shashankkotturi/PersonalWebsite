@@ -1,12 +1,12 @@
 {
   "main": {
     "name": "Shashank Kotturi",
-    "occupation": "Product Manager",
-    "description": "Currently a 4th year Computer Engineering student from the University of Waterloo looking for Fall 2020 internships",
+    "occupation": "Associate Product Manager",
+    "description": "I studied Computer Engineering at the University of Waterloo and I currently work at Cision.",
     "image": "profilepic.jpg",
-    "bio": "Previously, I worked as a Frontend Developer in React, Redux and Express. Currently, I'm a Product Manager that works to improve customer experiences using tools like JIRA, Google Analytics and Zendesk to develop product roadmaps, gather analytics for product development and provide customer support. My hobbies include biking, travelling, cooking and politics.",
+    "bio": "Currently, I work as an Associate Product Manager at Cision to improve data quality of contact information on 1M+ journalists. Previously, I worked as a Growth Intern at Zighra Inc. and as a Product Manager Intern at SAP and Flashfood. My hobbies include biking & exploring new trails, travelling around Canada & the US, and collecting coins in different denominations.",
     "contactmessage": "",
-    "email": "shashank.kotturi@uwaterloo.ca",
+    "email": "shashankkotturi@outlook.com",
     "phone": "604-600-5956",
     "address": {
       "city": "Vancouver",
@@ -17,7 +17,7 @@
     "social": [
       {
         "name": "email",
-        "url": "mailto:shashank.kotturi@uwaterloo.ca",
+        "url": "mailto:shashankkotturi@outlook.com",
         "className": "fa fa-envelope"
       },
       {
@@ -56,24 +56,42 @@
         "degree": "Project Management Foundations",
         "graduated": "August 2019",
         "description": "Registered PMI course that describes the responsibilities of a project manager and the differences between a product and a project manager."
+      },
+      {
+        "school": "Coursera",
+        "degree": "Google Project Management Certification",
+        "graduated": "In Progress",
+        "description": "To understand project management and how it can have a positive impact on my daily activities as a product manager"
       }
     ],
     "work": [
       {
+        "company": "Cision Ltd.",
+        "title": "Associate Product Manager",
+        "years": "May 2021 - Present",
+        "description": "Currenlty leading a team of 6 on short and long term projects to develop POCs that auto-validate contact information on 1M+ journalists. I work cross-functionally with team members from business, legal, engineering, research and sales when developing POCs and helping clients solve any issues. "
+      },
+      {
+        "company": "Zighra Inc.",
+        "title": "Growth Intern",
+        "years": "September 2020 - December 2020",
+        "description": "Developed a Figma prototype with 20 UI components and increased client feedback by 20% by adding frames with actions that allows clients to interact with the prototype. Won a small business grant worth $50,000 by designing plans for in-app accessibility features. Deployed iOS and Android mobile apps in under 5 iterations by collaborating with app store partners to meet cross-functional rules related to business, technology and privacy."
+      },
+      {
         "company": "SAP Canada",
-        "title": "Product Manager",
+        "title": "Product Manager Intern",
         "years": "January 2020 - April 2020",
         "description": "Published 11 video tutorials with 30 SQL scripts; Created 4 internal and external product roadmaps in JIRA and Confluence; Presented competitive analysis on 5 data virtualization platforms in the market to executive leadership."
       },
       {
         "company": "Flashfood",
-        "title": "Product Manager",
+        "title": "Product Manager Intern",
         "years": "May 2019 - August 2019",
         "description": "Cut customer tickets by 40%, costs by 25% and customer wait time by 2 days by redesigning customer support system; Proposed migrating in app event tracking from Mixpanel to Amplitude to reduce annual costs by $100,000."
       },
       {
         "company": "Telus",
-        "title": "Frontend Developer",
+        "title": "Full Stack Developer Intern",
         "years": "September 2018 - December 2018",
         "description": "Designed 5 wireframes and created functional prototype for small businesses to customize 10 internet packages with over 20 options each; Eliminated 20% of internal API calls and reduced 30% of Express server usage."
       }
@@ -85,27 +103,27 @@
         "level": "70%"
       },
       {
-        "name": "Data Analytics",
+        "name": "Product Analytics",
         "level": "70%"
-      },
-      {
-        "name": "Leadership",
-        "level": "80%"
       },
       {
         "name": "Communication",
         "level": "80%"
       },
       {
-        "name": "Time Management",
-        "level": "90%"
+        "name": "Project Management",
+        "level": "60%"
       },
       {
-        "name": "Project Management",
-        "level": "70%"
+        "name": "Prototyping",
+        "level": "75%"
+      },
+      {
+        "name": "Data Driven",
+        "level": "75%"
       }
     ],
-    "tools": [
+    "projectmanagement": [
       {
         "name": "JIRA",
         "level": "90%"
@@ -115,54 +133,54 @@
         "level": "90%"
       },
       {
-        "name": "Google Analytics",
-        "level": "60%"
+        "name": "ProductBoard",
+        "level": "90%"
       },
       {
-        "name": "Amplitude",
-        "level": "50%"
+        "name": "Miro",
+        "level": "85%"
+      }     
+    ],
+    "prototyping": [
+      {
+        "name": "Figma",
+        "level": "90%"
+      },
+      {
+        "name": "Webflow",
+        "level": "80%"
+      },
+      {
+        "name": "Zapier",
+        "level": "70%"
+      }
+    ],
+    "productanalytics": [
+      {
+        "name": "Google Analytics",
+        "level": "60%"
       },
       {
         "name": "Mixpanel",
         "level": "50%"
       },
       {
-        "name": "Zapier",
-        "level": "80%"
-      },
-      {
-        "name": "Zendesk",
-        "level": "80%"
-      },
-      {
-        "name": "Typeform",
-        "level": "90%"
+        "name": "QuickSight",
+        "level": "65%"
       }
     ],
-    "languages": [
+    "datadriven": [
       {
         "name": "SQL",
         "level": "70%"
       },
       {
-        "name": "Node",
-        "level": "60%"
-      },
-      {
-        "name": "React",
-        "level": "70%"
-      },
-      {
-        "name": "Redux",
-        "level": "60%"
-      },
-      {
-        "name": "Express",
+        "name": "Excel",
         "level": "80%"
-      },
+      },      
       {
         "name": "Python",
-        "level": "60%"
+        "level": "70%"
       }
     ]
   },
