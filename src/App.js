@@ -1,35 +1,29 @@
-import React from 'react';
-import { HashRouter, Route, Link} from "react-router-dom";
-
-import NavBarComp from './components/NavBarComp';
-import Sidebar from './components/Sidebar';
-import Home from './components/Home';
-import Extracurriculars from './components/Extracurriculars';
-import Education from './components/Education';
-import Experience from './components/Experience';
-import Footer from './components/Footer';
-
-import AOS from 'aos';
+import React, { Component } from 'react';
 import './App.css';
-import 'aos/dist/aos.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import About from './Components/About';
+import Resume from './Components/Resume';
+import Contact from './Components/Contact';
+import Testimonials from './Components/Testimonials';
+import Portfolio from './Components/Portfolio';
 
-AOS.init();
+const resumeData = require('./resumeData.json');
 
-function App() {
-  return (
-    <HashRouter basename="/">
+class App extends Component {
+  render() {
+    return (
       <div className="App">
-        <NavBarComp />
-        {/* <Sidebar /> */}
-        <Route exact path="/" component={Home} />
-        <Route path="/extracurriculars" component={Extracurriculars} />
-        <Route path="/education" component={Education} />
-        <Route path="/experience" component={Experience} />
-        <Footer />
+        <Header data={resumeData.main}/>
+        <About data={resumeData.main}/>
+        <Resume data={resumeData.resume}/>
+        <Portfolio data={resumeData.portfolio}/>
+        <Testimonials data={resumeData.testimonials}/>
+        <Contact data={resumeData.main}/>
+        <Footer data={resumeData.main}/>
       </div>
-    </HashRouter>
-  );
+    );
+  }
 }
 
 export default App;
