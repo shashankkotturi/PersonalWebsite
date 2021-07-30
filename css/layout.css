@@ -312,7 +312,7 @@ ul#nav li.current a { color: #F06000; }
 	top: -36px;
 }
 .bar-expand {
-   position: absolute;
+   /* position: absolute;
    left: 0;
    top: 0;
 
@@ -322,7 +322,7 @@ ul#nav li.current a { color: #F06000; }
    display: inline-block;
   	height: 42px;
    line-height: 42px;
-   border-radius: 3px 0 0 3px;
+   border-radius: 3px 0 0 3px; */
 }
 /*
 .git {
