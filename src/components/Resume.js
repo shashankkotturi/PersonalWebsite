@@ -20,11 +20,19 @@ class Resume extends Component {
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
-      var tools = this.props.data.tools.map(function(skills){
+      var projectmanagement = this.props.data.projectmanagement.map(function(skills){
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
-      var languages = this.props.data.languages.map(function(skills){
+      var prototyping = this.props.data.prototyping.map(function(skills){
+        var className = 'bar-expand '+skills.name.toLowerCase();
+        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+      })
+      var productanalytics = this.props.data.productanalytics.map(function(skills){
+        var className = 'bar-expand '+skills.name.toLowerCase();
+        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+      })
+      var datadriven = this.props.data.datadriven.map(function(skills){
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
@@ -56,8 +64,8 @@ class Resume extends Component {
 
          <div className="nine columns main-col">
           {work}
-        </div>
-    </div>
+         </div>
+      </div>
 
 
 
@@ -68,34 +76,46 @@ class Resume extends Component {
          </div>
 
          <div className="nine columns main-col">
-
             <p>{skillmessage}
             </p>
          </div>
       </div>
+      
       <div className="row skill">
-        <div className="four columns main-col">
-          <div className="bars">
+        <div className="three columns main-col">
+          {/* <div className="bars"> */}
+          <h1>Project Management</h1>
             <ul className="skills">
-              {skills}
+              {projectmanagement}
             </ul>
-          </div>
+          {/* </div> */}
         </div>
 
-        <div className="four columns main-col">
-          <div className="bars">
+        <div className="three columns main-col">
+          {/* <className="bars"> */}
+          <h1>Prototyping</h1>
             <ul className="skills">
-              {tools}
+              {prototyping}
             </ul>
-          </div>
+          {/* </div> */}
         </div>
 
-        <div className="four columns main-col">
-          <div className="bars">
+        <div className="three columns main-col">
+          {/* <div className="bars"> */}
+          <h1>Product Analytics</h1>
             <ul className="skills">
-              {languages}
+              {productanalytics}
             </ul>
-          </div>
+          {/* </div> */}
+        </div>
+
+        <div className="three columns main-col">
+            {/* <div className="bars"> */}
+            <h1>Data Driven</h1>
+              <ul className="skills">
+                {datadriven}
+              </ul>
+            {/* </div> */}
         </div>
       </div>
    </section>

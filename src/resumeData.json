@@ -125,11 +125,7 @@
     ],
     "projectmanagement": [
       {
-        "name": "JIRA",
-        "level": "90%"
-      },
-      {
-        "name": "Confluence",
+        "name": "JIRA, Confluence",
         "level": "90%"
       },
       {
