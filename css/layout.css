@@ -14,7 +14,8 @@
    f. Call To Action Section
    g. Testimonials Section
    h. Contact Section
-   i. Footer
+   i. Ideas Section
+   j. Footer
 
 ===================================================================== */
 
@@ -261,7 +262,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.work, .skill {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
@@ -925,9 +926,59 @@ call-to-action .button {
    border: none;
 }
 
+/* ------------------------------------------------------------------ */
+/* i. Ideas
+/* ------------------------------------------------------------------ */
+
+#ideas {
+   background: #191919;
+   padding-top: 96px;
+   padding-bottom: 102px;
+   color: #636363;
+}
+
+#ideas h1 span {
+   border-bottom: solid #11ABB0;
+   padding-bottom: 6px;
+}
+#ideas .section-head { margin-bottom: 42px; }
+
+#ideas a, #ideas a:visited  { color: #11ABB0; }
+#ideas a:hover, #ideas a:focus { color: #fff; }
+
+#ideas h1 {
+   font: 20px/40px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #EBEEEE;
+   margin-bottom: 6px;
+}
+/* #ideas h1 span { display: none; } */
+/* #ideas h1:before {
+   font-family: 'FontAwesome';
+   content: "\f0e0";
+	padding-right: 10px;
+	font-size: 72px;
+   line-height: 72px;
+   text-align: left;
+   float: left;
+   color: #ebeeee;
+} */
+
+#ideas h3 {
+   font: 20px/28px 'opensans-bold', sans-serif;
+   color: #EBEEEE;
+   margin-bottom: 6px;
+}
+#ideas p.lead {
+   font: 18px/36px 'opensans-light', sans-serif;
+   padding-right: 3%;
+}
+#ideas .header-col { padding-top: 6px; }
+
 
 /* ------------------------------------------------------------------ */
-/* i. Footer
+/* j. Footer
 /* ------------------------------------------------------------------ */
 
 footer {
