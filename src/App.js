@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import About from './Components/About';
-import Resume from './Components/Resume';
-import Contact from './Components/Contact';
-import Testimonials from './Components/Testimonials';
-import Portfolio from './Components/Portfolio';
-import Ideas from './Components/Ideas';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import About from './components/About';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
+import Testimonials from './components/Testimonials';
+import Portfolio from './components/Portfolio';
+import Ideas from './components/Ideas';
 
 const resumeData = require('./resumeData.json');
 
