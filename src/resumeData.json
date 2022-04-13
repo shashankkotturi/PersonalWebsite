@@ -4,7 +4,7 @@
     "occupation": "Associate Product Manager",
     "description": "I studied Computer Engineering at the University of Waterloo and I currently work at Cision",
     "image": "profilepic.jpg",
-    "bio": "Currently, I work as an Associate Product Manager at Cision to improve data quality on 1M+ journalist profiles through automation. Previously, I worked as a Product Management Intern at Zighra, SAP and Flashfood. I'm also working on a side project with my friend to create an innovative, relationship building app. My hobbies include biking & exploring new trails, travelling around Canada & the US, and collecting coins in different denominations.",
+    "bio": "Currently, I work as an Associate Product Manager at Cision to improve data quality on 1M+ journalist profiles through automation. Previously, I worked as a Product Management Intern at Zighra, SAP and Flashfood. I have also worked on a side project called Sportdle. My hobbies include biking & exploring new trails, travelling around Canada & the US, and collecting coins in different denominations.",
     "contactmessage": "",
     "email": "shashankkotturi@outlook.com",
     "phone": "604-600-5956",
@@ -187,6 +187,14 @@
   },
   "portfolio": {
     "projects": [
+      {
+        "title": "Sportdle: A musical version of Wordle",
+        "category": " Built using React, Express and Spotify Web APIs. Deployed on Heroku via GitHub.",
+        "image": "",
+        "url": "https://sportdle-react.herokuapp.com/",
+        "description": "Inspired by Wordle, I've developed an app that tests how well you know your playlists. This project is still a POC in development phase but can be updated with many more features for a MVP."
+
+      },
       {
         "title": "Making Relationships with Technology",
         "category": "An app that provides helpful tips to create and maintain meaningful relationships.",
