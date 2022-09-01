@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Shashank Kotturi",
-    "occupation": "Associate Product Manager",
+    "occupation": "Product Owner",
     "description": "I studied Computer Engineering at the University of Waterloo and I currently work at Cision",
     "image": "profilepic.jpg",
-    "bio": "Currently, I work as an Associate Product Manager at Cision to improve data quality on 1M+ journalist profiles through automation. Previously, I worked as a Product Management Intern at Zighra, SAP and Flashfood. I have also worked on a side project called Sportdle. My hobbies include biking & exploring new trails, travelling around Canada & the US, and collecting coins in different denominations.",
+    "bio": "Currently, I work as a Product Owner at Cision to improve data quality on 1M+ journalist profiles through automation. Previously, I worked as a Product Management Intern at Zighra, SAP and Flashfood. I have also worked on a side project called Sportdle. My hobbies include biking & exploring new trails, travelling around Canada & the US, and collecting coins in different denominations.",
     "contactmessage": "",
     "email": "shashankkotturi@outlook.com",
     "phone": "604-600-5956",
@@ -72,9 +72,15 @@
     "work": [
       {
         "company": "Cision Ltd.",
+        "title": "Product Owner",
+        "years": "July 2022 - Present",
+        "description": "Designed an automation strategy to verify 700k emails and prove 99.4% success rates. Doubled database to 600k journalists by identifying relevant attributes in a Twitter handle using named entity recognition, transformer models, and other machine learning processes. Led a cross-functional team of 20 engineers and business stakeholders to deploy a $5M database solution and increased efficiency by 40% through new features after go-live."
+      },
+      {
+        "company": "Cision Ltd.",
         "title": "Associate Product Manager",
-        "years": "May 2021 - Present",
-        "description": "Working cross-functionally with 20 stakeholders from product, engineering, and media research teams to deploy a master data management solution for 1M records. Leading a cross-functional team of data science and media research members to bring ML strategies like journalist recommendations, topic extraction, and article reading. Developed a research bot strategy that extracts 15 data points from over 500k Twitter bios."
+        "years": "May 2021 - July 2022",
+        "description": "Developing and implementing an 18-month roadmap to transform and scale database size by 5x using automation, machine learning, and AI. Implemented machine learning strategies that conduct topic and entity extraction on 200M articles and 500k journalist profiles by coordinating with research and data science."
       },
       {
         "company": "Zighra Inc.",
