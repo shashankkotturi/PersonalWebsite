@@ -45,10 +45,22 @@
   "resume": {
     "education": [
       {
+        "school": "University of California, Berkeley",
+        "degree": "Master of Information and Cybersecurity (Candidate)",
+        "graduated": "August 2024",
+        "description": "Master core technical skills and become fluent in the business, political, and legal context of cybersecurity."
+      },
+      {
         "school": "University of Waterloo",
         "degree": "Bachelor of Applied Science (B.A.Sc.), Computer Engineering",
         "graduated": "October 2021",
         "description": "Relevant Courses: Engineering Design and Economics, Databases (MySQL), Algorithms and Data Structures (C++)"
+      },
+      {
+        "school": "Scrum Alliance, Inc.",
+        "degree": "Certified Scrum Product Owner",
+        "graduated": "July 2022",
+        "description": "The Certified Scrum Product Owner® (CSPO®) demonstrates knowledge and ability to maximize the value of a product."
       },
       {
         "school": "LinkedIn Learning",
