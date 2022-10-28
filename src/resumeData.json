@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Shashank Kotturi",
-    "occupation": "Product Owner",
+    "occupation": "Product Manager",
     "description": "I studied Computer Engineering at the University of Waterloo and I currently work at Cision",
     "image": "profilepic.jpg",
-    "bio": "Currently, I work as a Product Owner at Cision to improve data quality on 1M+ journalist profiles through automation. Previously, I worked as a Product Management Intern at Zighra, SAP and Flashfood. I have also worked on a side project called Sportdle. My hobbies include biking & exploring new trails, travelling around Canada & the US, and collecting coins in different denominations.",
+    "bio": "Currently, I work as a Product Manager at Cision to deliver new data products and experiences to customers. Further, I work on improving data quality for influencer profiles through automation. Previously, I worked as a Product Management Intern at Zighra, SAP and Flashfood. I have also worked on a side project called Sportdle. My hobbies include biking & exploring new trails, travelling around Canada & the US, and collecting coins in different denominations.",
     "contactmessage": "",
     "email": "shashankkotturi@outlook.com",
     "phone": "604-600-5956",
@@ -72,8 +72,14 @@
     "work": [
       {
         "company": "Cision Ltd.",
-        "title": "Product Owner",
-        "years": "July 2022 - Present",
+        "title": "Product Manager",
+        "years": "Oct 2022 - Present",
+        "description": "Developed new smart search features through federated GraphQL by leveraging 5M relationships between 300k influencers, 200k outlets and 1M articles in a graph database. Established a new strategy to develop a Unified Product API with federated GraphQL to develop unique industry-leading products around analytics, insights and recommendations."
+      },
+      {
+        "company": "Cision Ltd.",
+        "title": "Product Manager",
+        "years": "July 2022 - Sept 2022",
         "description": "Designed an automation strategy to verify 700k emails and prove 99.4% success rates. Doubled database to 600k journalists by identifying relevant attributes in a Twitter handle using named entity recognition, transformer models, and other machine learning processes. Led a cross-functional team of 20 engineers and business stakeholders to deploy a $5M database solution and increased efficiency by 40% through new features after go-live."
       },
       {
